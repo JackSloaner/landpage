@@ -139,3 +139,31 @@ h1{
     word-wrap: break-word;
     font-size: 12px;
 }
+
+.quotezone { 
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    flex-direction: column;
+    gap : 10px;
+}
+
+@font-face {
+    font-family: quotefont;
+    src: url(fonts/Roboto-ThinItalic.ttf);
+}
+
+.quote {
+    font-size: 32px;
+    font-weight: 100;
+    word-wrap: break-word;
+    width: 550px;
+    font-family: quotefont;
+}
+
+.credit {
+    width: 550px;
+    justify-content: flex-end;
+}
+
