@@ -61,6 +61,7 @@ li:hover {
 .subhero {
     justify-content: space-between;
     width: 800px;
+    margin: 50px;
 }
 
 .hero div {
@@ -118,7 +119,6 @@ h1{
 
 .boxes {
     gap: 48px;
-
 }
 
 .boxhold {
@@ -145,7 +145,11 @@ h1{
     justify-content: center;
     align-items: center;
     height: 300px;
-    flex-direction: column;
+}
+
+.quotebox {
+    flex-wrap: wrap;
+    width: 550px;
     gap : 10px;
 }
 
@@ -155,6 +159,7 @@ h1{
 }
 
 .quote {
+    display: flex;
     font-size: 32px;
     font-weight: 100;
     word-wrap: break-word;
@@ -163,7 +168,47 @@ h1{
 }
 
 .credit {
+    display: flex;
     width: 550px;
     justify-content: flex-end;
 }
 
+.signup {
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.signbox {
+    width: 800px;
+    height: 100px;
+    border-radius: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+}
+
+.signtext {
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 16px;
+    color: white;
+}
+
+.signprompt {
+    font-size: 12px;
+    color: #E5E7EB;
+}
+
+.signbutton {
+    border: 2px solid white;
+    font-weight: 100;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
