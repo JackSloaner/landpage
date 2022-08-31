@@ -10,7 +10,7 @@
     flex-direction: column;
 }
 
-.main > div {
+.main div {
     display: flex;
 }
 
@@ -69,8 +69,6 @@ li:hover {
 
 .hero-content {
     flex-direction: column;
-
-    width: 300px;
     gap: 10px;
 }
 
@@ -103,4 +101,41 @@ li:hover {
 
 .young {
     width: auto;
+}
+
+.box-section {
+    height: 300px;
+    align-items: center;
+    padding: 48px;
+    flex-direction: column;
+    gap: 48px;
+}
+
+h1{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.boxes {
+    gap: 48px;
+
+}
+
+.boxhold {
+    width: 100px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid #3882F6;
+}
+
+.boxtext {
+    width: 100px;
+    word-wrap: break-word;
+    font-size: 12px;
 }
