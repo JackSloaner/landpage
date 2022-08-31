@@ -39,3 +39,53 @@ li {
 li:hover {
     background-color: black;
 }
+
+.hero {
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    height: 300px;
+}
+
+.hero div {
+    display: flex;
+}
+
+.hero-content {
+    flex-direction: column;
+
+    width: 300px;
+    gap: 10px;
+}
+
+.main-hero{
+    color: #F8FAF9;
+    font-size: 24px;
+}
+
+.sec-hero{
+    color: #E5E7EB;
+    font-size: 12px;
+}
+
+.button{
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: white;
+    height: 32px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.hero-image {
+    height: 180px;
+    width: auto;
+}
+
+.young {
+    width: auto;
+}
